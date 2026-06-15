@@ -1,0 +1,25 @@
+# Сборка Maven
+target/
+allure-results/
+allure-report/
+.allure/
+logs/
+*.log
+
+# Переменные окружения и обертка Maven
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Среда разработки IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Остальные среды разработки и ОС
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
